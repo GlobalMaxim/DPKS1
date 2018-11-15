@@ -6,15 +6,10 @@ int Calculator::Add (double a, double b)
     return a + b;
 =======
 	return a + b + 0.5;
->>>>>>> bdb53d1... fix truncation error
+>>>>>>> 4ad40a3... fix truncation error
 }
 
 int Calculator::Sub (double a, double b)
 {
     return Add (a, -b);
-}
-
-int Calculator::Mul (double a, double b)
-{
-    return a * b + 0.5;
 }
